@@ -1,11 +1,11 @@
 ---
 title: "Allow members to send as or send on behalf of a group"
 ms.reviewer: rahulnayak
-ms.date: 07/18/2023
+ms.date: 10/28/2024
 f1.keywords: NOCSH
-ms.author: jtremper
-author: jacktremper
-manager: pamgreen
+author: DaniEASmith
+ms.author: danismith
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: o365-solutions

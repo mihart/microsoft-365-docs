@@ -2,8 +2,8 @@
 title: "View device status with Microsoft Defender for Business"
 f1.keywords:
 - NOCSH
-ms.author: siosulli
-author: siosulli
+ms.author: chrisda
+author: chrisda
 manager: deniseb
 audience: Admin
 ms.topic: conceptual
@@ -23,7 +23,7 @@ description: "View device health with Defender for Business in Microsoft 365 Bus
 
 # View device status in Microsoft Defender for Business
 
-Microsoft Defender for Business is included with Microsoft 365 Business Premium, as of March 1, 2022. This offering provides additional security features for devices. [Learn more about Defender for Business](../security/defender-business/mdb-overview.md).
+Microsoft Defender for Business is included with Microsoft 365 Business Premium, as of March 1, 2022. This offering provides additional security features for devices. [Learn more about Defender for Business](/defender-business/mdb-overview).
 
 You can view and monitor device health state by using Defender for Business capabilities.
 
@@ -40,5 +40,5 @@ You can view and monitor device health state by using Defender for Business capa
 ## See also
 
 - [View and edit device protection policies](m365bp-view-edit-create-mdb-policies.md)
-- [What is Microsoft Defender for Business?](../security/defender-business/mdb-overview.md)
+- [What is Microsoft Defender for Business?](/defender-business/mdb-overview)
 - [Best practices for securing Microsoft 365 for business plans](secure-your-business-data.md)

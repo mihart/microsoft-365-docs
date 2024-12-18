@@ -3,7 +3,8 @@ title: "Configure Exchange Server to use Hybrid Modern Auth"
 ms.author: kvice
 author: kelleyvice-msft
 manager: scotv
-ms.date: 02/01/2024
+ms.reviewer: ninob
+ms.date: 12/05/2024
 audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
@@ -67,7 +68,7 @@ In this section, we provide information and steps that need to be done to succes
 
 ### Exchange Server specific prerequisites
 
-Your Exchange servers must fulfill the following requirements before Hybrid Modern Authentication can be configured and enabled. In case you have a hybrid configuration, you must run the latest Cumulative Update (CU) to be in a supported state. You can find the supported Exchange Server versions and build in the [Exchange Server supportability matrix](/exchange/plan-and-deploy/supportability-matrix#supported-versions-and-builds).
+Your Exchange servers must fulfill the following requirements before Hybrid Modern Authentication can be configured and enabled. In case you have a hybrid configuration, you must run the latest Cumulative Update (CU) to be in a supported state. You can find the supported Exchange Server versions and build in the [Exchange Server supportability matrix](/exchange/plan-and-deploy/supportability-matrix#supported-versions-and-builds). Hybrid Modern Authentication must be configured uniformly across all Exchange servers within your organization. Partial implementation, where HMA is enabled on only a subset of servers, is not supported.
 
 - Make sure that there are no end-of-life Exchange servers in the organization.
 - Exchange Server 2016 must be running CU8 or later.

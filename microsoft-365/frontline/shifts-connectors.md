@@ -5,7 +5,7 @@ ms.author: v-chinlana
 manager: jtremper
 ms.topic: conceptual
 audience: admin
-ms.reviewer: imarquesgil
+ms.reviewer: harrywong
 ms.service: microsoft-365-frontline
 search.appverid: MET150
 description: Learn about Shifts connectors and how to use them to connect Shifts to your workforce management system. 
@@ -30,6 +30,9 @@ Shifts connectors enable you to integrate Shifts, the schedule management tool i
 Connecting your WFM system to Teams empowers your frontline workforce to manage schedules more effectively and streamlines everyday processes for higher engagement and productivity. Your frontline workers have one place for their scheduling, communication, and collaboration needs to get work done, from anywhere, on any device.
 
 This article gives you an overview of Shifts connectors and how they work.
+
+> [!NOTE]
+> You can also create your own custom solution to integrate Shifts with your WFM system using the Microsoft Graph API. To learn more, see [Create a custom integration to sync your workforce management system with Shifts](shifts-custom-wfm-integration.md).
 
 ## How Shifts connectors work
 
@@ -229,4 +232,4 @@ Here's an overview of the connection setup process.
 
 ## Related articles
 
-- [Manage the Shifts app](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams?bc=/microsoft-365/frontline/breadcrumb/toc.json&toc=/microsoft-365/frontline/toc.json)
+- [Shifts for your frontline organization](shifts-for-teams-landing-page.md)

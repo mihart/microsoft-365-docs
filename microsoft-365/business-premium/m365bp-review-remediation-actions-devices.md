@@ -2,8 +2,8 @@
 title: Review remediation actions in Microsoft Defender XDR
 description: See how to view remediations that were taken automatically or that are awaiting approval in the Action center.
 search.appverid: MET150
-ms.author: siosulli
-author: siosulli
+ms.author: chrisda
+author: chrisda
 manager: deniseb
 audience: Admin
 ms.topic: how-to
@@ -25,7 +25,7 @@ Okay, you've discovered a security breach, but what do you do? It depends on the
 
 Microsoft 365 Business Premium includes remediation actions. Some actions are taken automatically when threats are detected, and other actions can be taken manually by your security team.
 
-Examples of remediation actions include sending a file to quarantine, stopping a process from running, or completely removing a scheduled task. All remediation actions are tracked in the Action center, which is located at [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center).
+Examples of remediation actions include sending a file to quarantine, stopping a process from running, or completely removing a scheduled task. All remediation actions are tracked in the Action center, which is located at <https://security.microsoft.com/action-center>.
 
 :::image type="content" source="../media/defender-business/mdb-actioncenter.png" alt-text="Screenshot of the Action Center in M365.":::
 
@@ -36,7 +36,7 @@ Examples of remediation actions include sending a file to quarantine, stopping a
 
 ## How to use your Action center
 
-1. Go to the Microsoft Defender portal ([https://security.microsoft.com](https://security.microsoft.com)), and sign in.
+1. Go to the Microsoft Defender portal (<https://security.microsoft.com>), and sign in.
 
 2. In the navigation pane, choose **Action center**.
 
@@ -52,7 +52,7 @@ The following table lists remediation actions that are available:
 
 |Source|Actions|
 |---|---|
-|[Automated attack disruption](../security/defender-business/mdb-attack-disruption.md) (NEW!)|<ul><li>Contain a device</li><li>Contain a user account on a device</li></ul>|
-|[Automated investigations](../security/defender-endpoint/automated-investigations.md)|<ul><li>Quarantine a file/li><li>Remove a registry key/li><li>Kill a process/li><li>Stop a service/li><li>Disable a driver/li><li>Remove a scheduled task</li></ul>|
-|[Manual response actions](../security/defender-endpoint/respond-machine-alerts.md)|<ul><li>Run antivirus scan/li><li>Isolate device/li><li>Add an indicator to block or allow a file</li></ul>|
-|[Live response](../security/defender-endpoint/live-response.md)|<ul><li>Collect forensic data/li><li>Analyze a file/li><li>Run a script/li><li>Send a suspicious entity to Microsoft for analysis/li><li>Remediate a file/li><li>Proactively hunt for threats</li></ul>|
+|[Automated attack disruption](/defender-business/mdb-attack-disruption) (NEW!)|<ul><li>Contain a device</li><li>Contain a user account on a device</li></ul>|
+|[Automated investigations](/defender-endpoint/automated-investigations)|<ul><li>Quarantine a file/li><li>Remove a registry key/li><li>Kill a process/li><li>Stop a service/li><li>Disable a driver/li><li>Remove a scheduled task</li></ul>|
+|[Manual response actions](/defender-endpoint/respond-machine-alerts)|<ul><li>Run antivirus scan/li><li>Isolate device/li><li>Add an indicator to block or allow a file</li></ul>|
+|[Live response](/defender-endpoint/live-response)|<ul><li>Collect forensic data/li><li>Analyze a file/li><li>Run a script/li><li>Send a suspicious entity to Microsoft for analysis/li><li>Remediate a file/li><li>Proactively hunt for threats</li></ul>|

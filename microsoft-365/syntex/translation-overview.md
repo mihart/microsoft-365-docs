@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: ssquires
-ms.date: 01/19/2024
+ms.date: 09/26/2024
 audience: admin
 ms.topic: conceptual
 ms.service: microsoft-syntex
@@ -20,7 +20,7 @@ description: Learn about the document translation service in Microsoft Syntex.
 # Overview of document translation in Microsoft Syntex
 
 > [!NOTE]
-> Through June 2025, you can try out document translation and other selected Syntex services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out Microsoft Syntex and explore its services](promo-syntex.md).
+> Through June 2025, you can try out a [limited amount](promo-syntex.md#monthly-included-capacity) of document translation and other selected Syntex services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out Microsoft Syntex and explore its services](promo-syntex.md).
 
 Microsoft Syntex lets you easily create a translated copy of a selected file or a set of files in a SharePoint document library. You can translate a file, while preserving the original format and structure of the file. Translation is available for all supported languages and dialects.
 
@@ -28,7 +28,7 @@ Microsoft Syntex lets you easily create a translated copy of a selected file or 
 
 This feature lets you translate files of different types either manually or automatically by creating a rule.
 
-You can also use the translation feature for translating video transcripts and closed captioning files. For more information, see [Transcript translations in Stream for SharePoint](https://prod.support.services.microsoft.com/office/microsoft-syntex-pay-as-you-go-transcript-translations-in-stream-for-sharepoint-2e34ad1b-e213-47ed-a806-5cc0d88751de).
+You can also use the translation feature for translating video transcripts and closed captioning files. For more information, see [Transcript translations in Stream for SharePoint](https://support.microsoft.com/office/microsoft-syntex-pay-as-you-go-transcript-translations-in-stream-for-sharepoint-2e34ad1b-e213-47ed-a806-5cc0d88751de).
 
 ## Requirements and limitations
 
@@ -48,10 +48,16 @@ Translation in Syntex is available for [all supported languages and dialects](/a
 
 - Text on an image within a document isn't translated.
 
+- Encrypted files aren't translated.
+
 - Password-protected files aren't translated.
+
+- Translation actions are also available for files in your **My files** folder in OneDrive.
 
 - On-demand translation on folders will be available in a future release.
 
 ### Frequently asked questions
 
 For answers to frequently asked questions about document translation, see [Document Translation: FAQ](/azure/ai-services/translator/document-translation/faq#document-translation-faq).
+
+For specific questions about character count, see [How does Translator count characters?](/azure/ai-services/translator/translator-faq#how-does-translator-count-characters).

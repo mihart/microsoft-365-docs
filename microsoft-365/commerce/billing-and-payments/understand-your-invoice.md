@@ -48,7 +48,11 @@ The invoice for your Microsoft business subscription provides a summary of the c
 
 Depending on the billing frequency that you chose when you bought your subscription, you receive an invoice monthly, every three months, every six months, or annually. 
 
-Each new subscription purchase receives the first invoice the next day and is billed on this same day of the month with the frequency selected at purchase. Changes you make to an existing subscription will appear on the monthly invoice around the beginning of the following month.
+Each new subscription purchase receives the first invoice the next day and is billed on this same day of the month with the frequency selected at purchase. Subscriptions with recurring billing receive subsequent invoices on that same day of the month. 
+
+Changes you make to an existing subscription appear on the monthly invoice around the beginning of the following month.  
+
+If you acquire multiple new subscriptions on different days within a month (excluding additions to current subscriptions), you receive separate invoices for each.
 
 > [!NOTE]
 > You can only change the billing frequency for a subscription when you buy, upgrade, or renew a subscription.
@@ -163,7 +167,7 @@ Payment instructions depend on your payment method and are provided at the botto
 
 - **Purchases Charge dates:** The service period during which you're charged to use the service. These are the dates of service the charge applies to.
 
-- **Billing period:** The time period during which charges accrue. If the period is a single day, only purchases made on that day are shownb on the invoice. There's also a monthly invoice with a billing period for the previous month. This invoice is for changes made to an existing subscription, such as adding seats or cancelling.
+- **Billing period:** The time period during which charges accrue. If the period is a single day, only purchases made on that day are shown on the invoice. There's also a monthly invoice with a billing period for the previous month. This invoice is for changes made to an existing subscription, such as adding seats or canceling.
 
 ### Why don't I see Azure prepayment as a payment method?
 

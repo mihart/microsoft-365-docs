@@ -1,8 +1,8 @@
 ---
 title: Collaborate with guests in a site (IT Admins)
-ms.author: jtremper
-author: jacktremper
-manager: pamgreen
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 ms.date: 05/31/2024
 audience: ITPro
 ms.topic: article

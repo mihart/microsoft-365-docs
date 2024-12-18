@@ -20,6 +20,9 @@ description: Learn how to edit an existing topic in Topics.
 
 # Edit an existing topic in Topics
 
+> [!NOTE]
+> Topics will be retired on February 22, 2025. [Learn more about the changes coming to Topics.](changes-coming-to-topics.md)
+
 </br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LA4n]  

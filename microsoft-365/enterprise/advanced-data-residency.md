@@ -4,14 +4,13 @@ ms.author: kvice
 author: kelleyvice-msft
 manager: scotv
 ms.reviewer: deanw
-ms.date: 02/29/2024
+ms.date: 09/05/2024
 audience: ITPro
 ms.topic: overview
 ms.service: microsoft-365-enterprise
 ms.subservice: advanced-data-residency
 ms.collection:
 - must-keep
-- essentials-overview
 ms.localizationpriority: medium
 search.appverid:
 - MET150
@@ -32,20 +31,21 @@ The following workloads are included in ADR. For more information, see:
 - [Exchange Online](m365-dr-workload-exo.md)
 - [SharePoint and OneDrive](m365-dr-workload-spo.md)
 - [Microsoft Teams](m365-dr-workload-teams.md)
-- [Microsoft Copilot for Microsoft 365](m365-dr-workload-copilot.md)
+- [Microsoft 365 Copilot](m365-dr-workload-copilot.md)
 - [Microsoft Defender for Office P1 and Exchange Online Protection](m365-dr-workload-mdo-p1.md)
 - [Office for the Web](m365-dr-workload-office-for-web.md)
 - [Viva Connections](m365-dr-workload-viva-connections.md)
-- [Viva Topics](m365-dr-workload-viva-topics.md)
-- [Microsoft Purview](m365-dr-workload-purview.md)
-  - [Audit (Standard)](m365-dr-workload-purview.md#purview-audit-standard)
-  - [Audit (Premium)](m365-dr-workload-purview.md#purview-audit-premium)
-  - [Data Retention](m365-dr-workload-purview.md#data-lifecycle-management---data-retention)
-  - [Microsoft Purview Records Management](m365-dr-workload-purview.md#data-lifecycle-management---records-management)
-  - [Sensitivity Labels](m365-dr-workload-purview.md#information-protection---sensitivity-labels)
-  - [Data Loss Prevention](m365-dr-workload-purview.md#information-protection---data-loss-prevention-dlp)
-  - [Office Message Encryption](m365-dr-workload-purview.md#information-protection---office-message-encryption)
-  - [Information Barriers](m365-dr-workload-purview.md#risk-and-compliance---information-barriers)
+- [Viva Topics](m365-dr-workload-viva-topics.md)*
+- [Microsoft Purview](m365-dr-workload-purview.md)**
+  - [Data Loss Prevention](m365-dr-workload-purview.md#data-security---data-loss-prevention-dlp)
+  - [Information Barriers](m365-dr-workload-purview.md#data-security---information-barriers)
+  - [Information Protection (MIP)](m365-dr-workload-purview.md#data-security---information-protection-mip)
+  - [Audit (Standard)](m365-dr-workload-purview.md#risk--compliance---audit-standard)
+  - [Audit (Premium)](m365-dr-workload-purview.md#risk--compliance---audit-premium)
+  - [Data Lifecycle Management (DLM)](m365-dr-workload-purview.md#risk--compliance---data-lifecycle-management-dlm)
+
+> [!NOTE]
+> *Viva Topics will be retired on February 22, 2025. Therefore, as of October 31, 2024, Viva Topics will no longer be a supported workload in ADR. Starting with the upcoming local region launches in Taiwan and New Zealand, Viva Topics customer data will not be migrated to new local regions, nor will new customers have Viva Topics stored in existing local regions. For more details, please visit [aka.ms/TopicsFebSupport](https://aka.ms/TopicsFebSupport).
 
 ## Licensing and Purchase
 
@@ -53,7 +53,7 @@ The following workloads are included in ADR. For more information, see:
 
 The Advanced Data Residency ("ADR") add-on is intended for Microsoft 365 enterprise customers who have comprehensive data residency requirements. To be eligible to purchase ADR, customers must meet the following prerequisites:
 
-- The _Tenant_ _Default Geography_ must be one of the countries or regions included in the _Local Region Geography_: Australia, Brazil, Canada, France, Germany, India, Israel, Italy, Japan, Mexico, Poland, Qatar, South Korea, Norway, South Africa, Spain, Sweden, Switzerland, United Arab Emirates, and United Kingdom.
+- The _Tenant_ _Default Geography_ must be one of the countries or regions included in the _Local Region Geography_: Australia, Brazil, Canada, France, Germany, India, Israel, Italy, Japan, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, and United Kingdom.
 - Customers must have licenses for one or more of the following products:
   - Microsoft 365 F1, F3, E3, or E5 (including SKUs without Microsoft Teams)
   - Office 365 F3, E1, E3, or E5 (including SKUs without Microsoft Teams)
@@ -121,7 +121,7 @@ The "Data location" section in the Microsoft 365 admin center (referenced in the
 
 Microsoft adheres to the [Microsoft Online Services Service Level Agreement (SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) for service availability and uses reasonable efforts to complete an Advanced Data Residency add-on customer data migration within 12 months from the time the customer administrator selects the option to initiate migration. However, large, complex customers, and situations outside of Microsoft's control, may require more time for migration to complete.
 
-Data moves are a back-end service operation with minimal impact to a customer's operations. For information related to specific workloads, customer administrators can refer to the “Migration” sections in the following Workload Data Residency Capabilities pages: [Exchange Online](m365-dr-workload-exo.md#migration), [SharePoint and OneDrive](m365-dr-workload-spo.md#migration-with-advanced-data-residency), [Microsoft Teams](m365-dr-workload-teams.md#migration), [Microsoft Copilot for Microsoft 365](m365-dr-workload-copilot.md#migration), [Microsoft Defender for Office P1](m365-dr-workload-mdo-p1.md#migration), [Office for the Web](m365-dr-workload-office-for-web.md#migration), [Viva Connections](m365-dr-workload-viva-connections.md#migration), [Viva Topics](m365-dr-workload-viva-topics.md#migration), [Microsoft Purview](m365-dr-workload-purview.md#migration), and [Other Services](m365-dr-workload-other.md).
+Data moves are a back-end service operation with minimal impact to a customer's operations. For information related to specific workloads, customer administrators can refer to the “Migration” sections in the following Workload Data Residency Capabilities pages: [Exchange Online](m365-dr-workload-exo.md#migration), [SharePoint and OneDrive](m365-dr-workload-spo.md#migration-with-advanced-data-residency), [Microsoft Teams](m365-dr-workload-teams.md#migration), [Microsoft 365 Copilot](m365-dr-workload-copilot.md#migration-and-user-experience), [Microsoft Defender for Office P1](m365-dr-workload-mdo-p1.md#migration), [Office for the Web](m365-dr-workload-office-for-web.md#migration), [Viva Connections](m365-dr-workload-viva-connections.md#migration), [Viva Topics](m365-dr-workload-viva-topics.md#migration), [Microsoft Purview](m365-dr-workload-purview.md#migration), and [Other Services](m365-dr-workload-other.md).
 
 ### During and After your Migration
 

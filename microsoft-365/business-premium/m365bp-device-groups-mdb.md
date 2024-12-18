@@ -2,8 +2,8 @@
 title: Working with device groups in Microsoft 365 Business Premium
 description: "Learn about device groups and how to apply policies with Intune in Microsoft 365 Business Premium, and increase protection from cyberattacks."
 search.appverid: MET150
-ms.author: siosulli
-author: siosulli
+ms.author: chrisda
+author: chrisda
 manager: deniseb
 audience: Admin
 ms.topic: how-to
@@ -59,7 +59,7 @@ You can create a new device group while you are in the process of creating or ed
 
 8. On the **Device groups** step, review the list of device groups for the policy. If needed, remove a group from the list. Then choose **Next**.
 
-9. On the **Configuration settings** page, review and edit settings as needed, and then choose **Next**. For more information about these settings, see [Understand next-generation configuration settings in Microsoft Defender for Business](../security/defender-business/mdb-next-gen-configuration-settings.md).
+9. On the **Configuration settings** page, review and edit settings as needed, and then choose **Next**. For more information about these settings, see [Understand next-generation configuration settings in Microsoft Defender for Business](/defender-business/mdb-next-generation-protection).
 
 10. On the **Review your policy** step, review all the settings, make any needed edits, and then choose **Create policy** or **Update policy**.
 
@@ -79,7 +79,7 @@ Use the device category name when you create the Microsoft Entra ID security gro
 
 ## Create dynamic device groups in Microsoft Entra ID
 
-You can also go to the Microsoft Entra ID portal ([https://entra.microsoft.com](https://entra.microsoft.com)) from the Microsoft 365 admin center. In the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com/)), choose **All admin centers**, and then choose **Microsoft Entra**.
+You can also go to the Microsoft Entra ID portal (<https://entra.microsoft.com>) from the Microsoft 365 admin center. In the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com/)), choose **All admin centers**, and then choose **Microsoft Entra**.
 
 In the Microsoft Entra ID portal, you can create dynamic groups based on the device category and device category name. Use dynamic group rules to automatically add and remove devices. If a device's attributes change, the system looks at your dynamic group rules for the directory to see if the device meets the rule requirements (is added) or no longer meets the rules requirements (is removed).
 

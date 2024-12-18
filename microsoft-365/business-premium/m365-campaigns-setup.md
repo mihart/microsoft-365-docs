@@ -73,10 +73,11 @@ There's no minimum time commitment when you sign up for Microsoft 365 for Campai
 
 3. After we've verified that you represent a national-level political campaign or party, you'll receive an email invitation from Microsoft. Your invite includes a sign-up link specific to your organization.
 
-
 After you have subscribed to Microsoft 365 for Campaigns, your next step is to get everything set up.
 
 ## Before you begin your setup process
+
+[Sign in and set up Microsoft 365 Business Premium](m365-business-premium-setup.md)
 
 Make sure that you meet the following requirements before you begin your setup process:
 
@@ -86,7 +87,7 @@ Make sure that you meet the following requirements before you begin your setup p
 |Permissions|To complete the initial setup process, you must have an appropriate role assigned. [Learn more about admin roles](../admin/add-users/about-admin-roles.md).|
 |Browser requirements|Microsoft Edge, Safari, Chrome or Firefox. [Learn more about browser requirements](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources#coreui-heading-uyetipy).|
 |Operating systems (client)|**Windows**:  Windows 10 or 11 Pro <br/> **macOS**: One of the three most recent versions of macOS|
-|Operating systems (servers)|Windows Server or Linux Server <br/> (Requires an additional license, such as [Microsoft Defender for Business servers](../security/defender-business/get-defender-business.md#how-to-get-microsoft-defender-for-business-servers).)|
+|Operating systems (servers)|Windows Server or Linux Server <br/> (Requires an additional license, such as [Microsoft Defender for Business servers](/defender-business/get-defender-business#how-to-get-microsoft-defender-for-business-servers).)|
 
 > [!TIP]
 > For more detailed information about Microsoft 365, Office, and system requirements, see [Microsoft 365 and Office Resources](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources).
@@ -105,7 +106,7 @@ Make sure that you meet the following requirements before you begin your setup p
 
 Users who have been added to your Microsoft 365 for Campaigns (or Microsoft 365 Business Premium) subscription can sign in using the following steps:
 
-1. Go to [https://office.com](https://office.com).
+1. Go to <https://office.com>.
 
 2. Sign in using the username and password for the account. Users will have this information in the email they receive when they are added as users. If they can't find the email, see [user didn't receive invite email](../admin/simplified-signup/admin-invite-business-standard.md#i-shared-an-email-invite-but-the-user-didnt-receive-the-email).
 

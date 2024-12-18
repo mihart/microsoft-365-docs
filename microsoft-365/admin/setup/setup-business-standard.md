@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 10/10/2023
+ms.date: 11/14/2024
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -47,7 +47,7 @@ In this article, we'll walk you through the steps of adding an existing domain y
 
 ## Before you begin
 
-To add, modify or remove domains you must be a global administrator. For more info, see [About admin roles](../add-users/about-admin-roles.md).
+To add, modify or remove domains you must be a [domain name administrator](/entra/identity/role-based-access-control/permissions-reference).
 
 > [!IMPORTANT]
 > The person who signs up for Microsoft 365 for business (usually the business owner) automatically becomes the technical administrator of the organization. You can add other people as admins if you want help managing your Microsoft 365 services. Check out [Assign admin roles](../add-users/assign-admin-roles.md) for more info.
@@ -126,7 +126,7 @@ Follow the steps below to set up Outlook, Teams, OneDrive and your website.
 
 ## Watch: Set up Outlook for email
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/9fe86884-8a83-42cc-bca9-61a12e6dad31?autoplay=false]
+> [!VIDEO e30573c6-b0d5-4007-8ff6-8c9dfd4e39fe]
   
 More at [Set up Outlook for email](https://support.microsoft.com/office/f5bf0cd1-e1f3-4b0d-a022-ecab17efe86f).
   
@@ -148,7 +148,7 @@ If you were using Outlook with another email account, you can import your previo
 
 ## Watch: Import and redirect email
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/40f7df36-9e24-44e5-8791-e9ed0dd8fd21?autoplay=false]
+> [!VIDEO 9efe5ae1-1dec-4f2c-8ea5-fef10843388e]
   
 More at [Import email with Outlook](https://support.microsoft.com/office/6a3771d4-4c1d-4a25-92a6-0b8e476335de).
 

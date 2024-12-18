@@ -3,7 +3,7 @@ title: "Microsoft 365 URLs and IP address ranges"
 ms.author: kvice
 author: kelleyvice-msft
 manager: scotv
-ms.date: 05/30/2024
+ms.date: 12/13/2024
 audience: Admin
 ms.topic: conceptual
 ms.service: microsoft-365-enterprise
@@ -37,7 +37,7 @@ Microsoft 365 requires connectivity to the Internet. The endpoints below should 
 
 |Notes|Download|Use|
 |---|---|---|
-|**Last updated:** 05/30/2024 - ![RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** all required and optional destinations in one [JSON formatted](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) list.|**Use:** our proxy [PAC files](managing-office-365-endpoints.md#pacfiles)|
+|**Last updated:** 10/31/2024 - ![RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** all required and optional destinations in one [JSON formatted](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) list.|**Use:** our proxy [PAC files](managing-office-365-endpoints.md#pacfiles)|
 |
 
 Start with [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md) to understand our recommendations for managing network connectivity using this data. Endpoints data is updated as needed at the beginning of each month with new IP Addresses and URLs published 30 days in advance of being active. This cadence allows for customers who don't yet have automated updates to complete their processes before new connectivity is required. Endpoints may also be updated during the month if needed to address support escalations, security incidents, or other immediate operational requirements. The data shown on this page below is all generated from the REST-based web services. If you're using a script or a network device to access this data, you should go to the [Web service](microsoft-365-ip-web-service.md) directly.
@@ -50,7 +50,7 @@ Data columns shown are:
 
 - **ID**: The ID number of the row, also known as an endpoint set. This ID is the same as is returned by the web service for the endpoint set.
 
-- **Category**: Shows whether the endpoint set is categorized as **Optimize**, **Allow**, or **Default**. This column also lists which endpoint sets are required to have network connectivity. For endpoint sets that aren't required to have network connectivity, we provide notes in this field to indicate what functionality would be missing if the endpoint set is blocked. If you're excluding an entire service area, the endpoint sets listed as required don't require connectivity.
+- **Category**: Shows whether the endpoint set is categorized as **Optimize**, **Allow**, or **Default**. This column also lists which endpoint sets are required to have network connectivity. For endpoint sets that aren't required to have network connectivity, we provide notes in this field to indicate what functionality would be missing if the endpoint set is blocked.
 
    You can read about these categories and guidance for their management in [Optimizing connectivity to Microsoft 365 services](microsoft-365-network-connectivity-principles.md#optimizing-connectivity-to-microsoft-365-services).
 
@@ -62,10 +62,24 @@ Data columns shown are:
 
 - **Ports**: Lists the TCP or UDP ports that are combined with listed IP addresses to form the network endpoint. You may notice some duplication in IP address ranges where there are different ports listed.
 
+## [Microsoft 365 Unified Domains](cloud-microsoft-domain.md)
+
 > [!NOTE]
-> Microsoft has begun a long-term transition to providing services from the **cloud.microsoft** namespace to simplify the endpoints managed by our customers. If you are following existing guidance for allowing access to required endpoints as listed below, there’s no further action required from you.
+> In response to customer feedback and to streamline endpoint management, Microsoft has initiated the process of consolidating Microsoft 365 apps and services into a select group of dedicated, secured, and purpose-managed domains within the **.microsoft** top level domain (TLD). 
+> 
+> To avoid connectivity issues for users, please ensure that the following essential domains are included in your allow-list and that connectivity to these domains is not blocked.
+
+| ID | Category | Domain name| Purpose | Ports |
+|---|---|---|---|---|
+|184|Required|`*.cloud.microsoft`|Dedicated to authenticated user facing Microsoft SaaS product experiences.|**TCP:** 443,80<br>**UDP:** 443|
+|184|Required|`*.static.microsoft`|Dedicated to static (not customer generated) content hosted on CDNs.|**TCP:** 443,80<br>**UDP:** 443|
+|184|Required|`*.usercontent.microsoft`|Content used in Microsoft 365 experiences that requires domain isolation from applications.|**TCP:** 443,80<br>**UDP:** 443|
 
 [!INCLUDE [Microsoft 365 worldwide endpoints](../includes/office-365-worldwide-endpoints.md)]
+
+Notes for this table:
+
+- The Security and Compliance Center (SCC) provides support for Azure ExpressRoute for Microsoft 365. The same applies for many features exposed through the SCC such as Reporting, Auditing, eDiscovery (Premium), Unified DLP, and Data Governance. Two specific features, PST Import and eDiscovery Export, currently don't support Azure ExpressRoute with only Microsoft 365 route filters due to their dependency on Azure Blob Storage (*.blob.core.windows.net). To consume those features, you need separate connectivity to Azure Blob Storage using any supportable Azure connectivity options, which include Internet connectivity or Azure ExpressRoute with Azure Public route filters. You have to evaluate establishing such connectivity for both of those features. The Microsoft 365 Information Protection team is aware of this limitation and is actively working to bring support for Azure ExpressRoute for Microsoft 365 as limited to Microsoft 365 route filters for both of those features.
 
 ## Related Topics
 
@@ -76,8 +90,6 @@ Data columns shown are:
 [General Microsoft Stream endpoints](/stream/network-overview#general-microsoft-stream-endpoints)
   
 [Monitor Microsoft 365 connectivity](./monitor-connectivity.md)
-
-[Root CA and the Intermediate CA bundle on the third-party application system](../compliance/encryption-office-365-certificate-chains.md)
   
 [Client connectivity](https://support.office.com/article/client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
   

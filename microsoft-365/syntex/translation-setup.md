@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: ssquires
-ms.date: 06/12/2024
+ms.date: 09/25/2024
 audience: admin
 ms.topic: conceptual
 ms.service: microsoft-syntex
@@ -14,7 +14,7 @@ ms.collection:
     - enabler-strategic
     - m365initiative-syntex
 ms.localizationpriority:  medium
-description: Learn how to set up document translation in Microsoft Syntex.
+description: Learn how to set up document translation in SharePoint.
 ---
 
 # Set up and manage document translation in Microsoft Syntex
@@ -25,7 +25,7 @@ The document translation service for Microsoft Syntex is set up in the Microsoft
 
 ### Licensing
 
-Before you can use translation in Syntex, you must first link an Azure subscription in [Syntex pay-as-you-go](syntex-azure-billing.md). Translation in Syntex is billed based on the [type and number of transactions](syntex-pay-as-you-go-services.md).
+Before you can use document translation, you must first link an Azure subscription in [Syntex pay-as-you-go](syntex-azure-billing.md). Document translation is billed based on the [type and number of transactions](syntex-pay-as-you-go-services.md).
 
 ### Permissions
 
@@ -35,25 +35,31 @@ You must be a [SharePoint Administrator](/entra/identity/role-based-access-contr
 
 ## Set up translation
 
-After an [Azure subscription is linked to Microsoft Syntex](syntex-azure-billing.md), translation is automatically set up and turned on for all SharePoint sites.
+After an [Azure subscription is linked to Microsoft Syntex](syntex-azure-billing.md), document translation is automatically set up and turned on for all SharePoint sites.
 
 ## Manage sites
 
 By default, document translation is turned on for libraries in all SharePoint sites. Follow these steps to limit which sites users can use document translation.
 
-1. In the Microsoft 365 admin center, select <a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">**Setup**</a>, and then select **Use content AI with Microsoft Syntex**.
+1. In the Microsoft 365 admin center, select <a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">**Setup**</a>.
 
-2. On the **Use content AI with Microsoft Syntex** page, select **Manage Microsoft Syntex**.
+2. Under **Files and content**, select **Automate content processes with Syntex**.
 
-3. On the **Microsoft Syntex** panel, select **Document translation**.
+3. On the **Automate content processes with Syntex** page, select **Go to Syntex settings**.
 
-4. On the **Document translation** panel:
+4. On the Syntex page, in the **Document & image services** section, select **Document translation**.
 
-    a. Choose which site or sites this service should be enabled for.
+5. On the **Document translation** panel:
 
-    b. To restrict user access to this service, under **Sites where document translation can be used when it's turned on**, select **Edit**. On the **Where can document translation be used?** panel, change the setting from **All sites** to **Selected sites (up to 100)** or **No sites**. For selected sites, follow the instructions to select the sites or upload a CSV listing of the sites. You can then manage site access permissions for the sites you selected.
+    a. Choose the site or sites on which this service should be enabled.
 
-    c. Select **Save**.
+    b. To restrict user access to this service, under **Where document translation can be used when it's turned on**, select **Edit**. On the **Where can document translation be used?** panel, change the setting from **All sites** to **Selected sites (up to 100)** or **No sites**. For selected sites, follow the instructions to select the sites or upload a CSV listing of the sites. You can then manage site access permissions for the sites you selected.
+
+    c. By default, document translation for OneDrive is turned on. If you want to turn it off, in the **OneDrive** section, select **Edit**. On the **Where can document translation be used?** panel, in the **OneDrive** section, clear the **Available in OneDrive** checkbox.
+
+    ![Screenshot showing the Where can document translation be used? panel, and the Available in OneDrive checkbox selected.](../media/content-understanding/translation-onedrive-selected.png)
+
+    d. Select **Save**.
 
 ## Video transcript translation
 

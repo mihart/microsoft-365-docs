@@ -100,6 +100,96 @@ For the first time, you can now see what articles your users are consuming on Su
 
 :::image type="content" source="../../media/experience-insights-teams-help-article2.png" alt-text="Screenshot: Image showing the number of help articles read and the corresponding Microsoft 365 product":::
 
+## Interpret your organization's help article views
+
+Chart information gives you insight into the apps and services that you want to track data on. Help article views is the total number of help article page views that users in your organization have viewed in a Microsoft 365 app or on support.microsoft.com.
+
+:::image type="content" source="../../media/help-articles-detail-view2.png" alt-text="Screenshot: Image showing the Help article views.":::
+
+> [!NOTE]
+> Help article views are only shown for users who have signed in to the desktop app or have signed in to [support.microsoft.com](https://support.microsoft.com).
+
+|Item|Description|
+|:-----|:-----|
+|1 |Use the Help content tab to see where people need help using the app or service. |
+|2 |You can filter for trends over the last 30 days, 90 days, or 180 days. |
+|3 |Total number of help article page views in app or on [support.microsoft.com](https://support.microsoft.com). |
+|4 |List of the top help articles related to the app or service that your end-users are reading. If an article covers multiple apps, it will be shown for each related app. |
+
+## Examples of help articles
+
+Help articles can be found in-app in the help pane or at the [Microsoft support page](https://support.microsoft.com/).
+
+### Help article on Microsoft support page
+
+:::image type="content" source="../../media/help-article-example.png" alt-text="Screenshot: Example support.microsoft.com article":::
+
+### In-app help article in Microsoft Word
+
+:::image type="content" source="../../media/help-article-example-in-app-word.png" alt-text="Screenshot: Example Word desktop app help article":::
+
+## Manage adoption success with actions in Experience insights
+
+Actions let you track the actions you take to drive user engagement and success for Microsoft 365 in your organization. You can measure the impact of your actions by analyzing how each action correlates with changes in usage, NPS, feedback, and help article views. This empowers you to make data-driven decisions and continuously improve your strategies for user engagement and satisfaction.
+
+The actions experience within Microsoft 365 admin center includes the following features and capabilities: 
+
+- Add an action
+
+- Import multiple actions from a CSV file
+
+- Edit and remove previously added actions
+
+- Duplicate actions
+
+- Export the list of actions to CSV
+
+- View your action impact on Experience insights graphs
+
+- See the list of actions related to a product on the product detail card
+
+### Get started
+
+To manage actions, open the Experience Insights dashboard in the Microsoft 365 admin center, and then select the Actions tab. There are two key experiences to familiarize yourself within actions experience:
+
+### ![Experience insights dashboard with Actions tab highlighted. Next to the Suggested training tab near the top of the page.](media/experience-insights-dashboard/actions-tab.png)
+
+Adding new actions
+
+1.     Select __Add action__.
+
+2.     Complete the form with the following details:
+
+- __Title__: Provide a distinct and descriptive title to help identify the action.
+
+- __Date of action__: Enter the date of that you took the action.
+
+- __Action type__: Select the type of action.
+
+- __Notes:__ Optional field to add in further description of your action.
+
+- __Target products__: Select one or more products associated with the action.
+
+3.     Once all required details are entered, select __Save__.
+
+ You can also import multiple actions from CSV.   Select __Import from CSV__ and follow the instructions for editing and uploading the file. There’s even a sample, pre-formatted CSV file that you can use to get started.
+
+### Viewing action impact
+
+Once an action is added, you can view it in the graphs in Experience insights, facilitating the analysis of how specific actions influence the data.
+
+1. From the __Actions__ list, select the __Target product__ for an action. This will open the product detail card.
+
+1. Select the Usage, Help Content, Product feedback, or Net Promoter Score tab.
+
+1. On the date of the action, there will be a vertical dashed line tracking the action against the graph’s data.
+
+   Note: You might need to change the __Date range__ to see the action.
+
+1. When you select the __Title__ of the action, above the vertical dashed line, you’ll get more details about the action.
+
+![Detail page of actions in the Unique active users by day chart. One label shows a single action, another dropdown shows ‘2 actions’ with description.](media/experience-insights-dashboard/action-impact.png)
+
 ## Additional resources
 
 ### View your organization's Adoption Score

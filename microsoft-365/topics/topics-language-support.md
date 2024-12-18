@@ -13,12 +13,15 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-topics
   - Tier1
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Find the languages available in Topics.
 ---
 
 
 # Supported languages in Topics
+
+> [!NOTE]
+> Topics will be retired on February 22, 2025. [Learn more about the changes coming to Topics.](changes-coming-to-topics.md)
 
 ## Languages available in the UI
 

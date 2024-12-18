@@ -13,11 +13,14 @@ ms.collection:
 ms.service: viva-topics 
 search.appverid:
     - MET150  
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Learn how knowledge managers build and manage a knowledge base with Topics.
 ---
 
 # Knowledge managers: Build and manage a knowledge base in Topics
+
+> [!NOTE]
+> Topics will be retired on February 22, 2025. [Learn more about the changes coming to Topics.](changes-coming-to-topics.md)
 
 Knowledge managers play a key role in building a knowledge base that Topics makes available to employees, in the flow of their work. In this article we review:  
 

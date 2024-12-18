@@ -38,11 +38,11 @@ Group Level Aggregates help admins and adoption strategists understand how diffe
 Group Level Aggregates isn't enabled by default.
 
 > [!NOTE]
-> Group Level Aggregates can only be enabled by the Global Administrator role.  
+> Group Level Aggregates can only be enabled by the Global administrator role.  
   
 To enable Group Level Aggregates:
 
-1. Sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a> as a Global Administrator.
+1. Sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 
 2. Go to **Settings** \> **Org settings** \> **Adoption Score**.
 

@@ -11,10 +11,10 @@
               href: syntex-pay-as-you-go-services.md
             - name: Set up pay-as-you-go billing
               href: syntex-azure-billing.md
-            - name: Set up per-user licenses
-              href: set-up-content-understanding.md
-            - name: Set up Microsoft Syntex
+            - name: Set up pay-as-you-go services
               href: set-up-microsoft-syntex.md
+            - name: Assign per-user licenses
+              href: set-up-content-understanding.md
             - name: Privacy, security, & compliance
               href: syntex-privacy-security.md
             - name: Set up a content center 
@@ -47,6 +47,8 @@
               href: prebuilt-model-receipt.md
             - name: Sensitive information 
               href: prebuilt-model-sensitive-info.md
+            - name: Simple documents 
+              href: prebuilt-model-simple.md
             - name: Manage your model
               items:
                 - name: Apply a model
@@ -69,6 +71,8 @@
                   href: choose-library-view.md
                 - name: View processing status 
                   href: processing-status.md
+                - name: Set a page range
+                  href: page-range.md
                 - name: Analyze model usage
                   href: model-usage-analytics.md
 
@@ -102,6 +106,8 @@
                   href: choose-library-view.md
                 - name: View processing status 
                   href: processing-status.md
+                - name: Set a page range
+                  href: page-range.md
                 - name: Analyze model usage
                   href: model-usage-analytics.md
 
@@ -129,8 +135,6 @@
                   href: accessibility-mode.md
                 - name: Rename an extractor
                   href: rename-an-extractor.md
-            - name: Duplicate a model
-              href: duplicate-a-model.md
             - name: Manage your model
               items:
                 - name: Apply a model
@@ -147,6 +151,8 @@
                   href: rename-a-model.md
                 - name: Delete a model
                   href: delete-a-model.md
+                - name: Duplicate a model
+                  href: duplicate-a-model.md
                 - name: Manage library settings 
                   href: manage-library-settings.md
                 - name: Choose a library view 
@@ -236,7 +242,7 @@
     - name: Microsoft 365 Archive
       href: /microsoft-365/archive
 
-    - name: Microsoft 365 Backup (Preview)
+    - name: Microsoft 365 Backup
       href: /microsoft-365/backup
 
     - name: Annotations
@@ -256,6 +262,8 @@
           href: content-processing-create-rules.md
         - name: Set a content type 
           href: content-processing-content-type.md
+        - name: Translate a file 
+          href: content-processing-translate.md
 
     - name: Premium taxonomy features
       items:
@@ -312,9 +320,9 @@
     - name: Extensibility
       items: 
         - name: Content model Graph API 
-          href: /graph/api/resources/contentmodel?view=graph-rest-beta
+          href: /graph/api/resources/contentmodel
         - name: Document processing Graph API 
-          href: /graph/api/resources/documentprocessingjob?view=graph-rest-beta
+          href: /graph/api/resources/documentprocessingjob
         - name: Unstructured model REST API 
           href: /sharepoint/dev/apis/syntex/syntex-model-rest-api
         - name: Syntex PowerShell

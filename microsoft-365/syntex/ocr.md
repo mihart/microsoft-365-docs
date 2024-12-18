@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: kkameth
-ms.date: 06/12/2024
+ms.date: 09/26/2024
 audience: admin
 ms.topic: conceptual
 ms.service: microsoft-syntex
@@ -15,7 +15,7 @@ ms.collection:
     - enabler-strategic
     - m365initiative-syntex
 ms.localizationpriority: medium
-description: Learn how to set up and manage optical character recognition in Microsoft Syntex.
+description: Learn how to set up and manage optical character recognition in SharePoint.
 ---
 
 # Set up and manage optical character recognition in Microsoft Syntex
@@ -26,7 +26,7 @@ The optical character recognition (OCR) service for Microsoft Syntex is set up i
 
 ### Licensing
 
-Before you can use the OCR service in Microsoft Syntex, you must first link an Azure subscription in [Syntex pay-as-you-go](syntex-azure-billing.md). OCR in Syntex is billed based on the [type and number of transactions](syntex-pay-as-you-go-services.md).
+Before you can use the OCR service, you must first link an Azure subscription in [Syntex pay-as-you-go](syntex-azure-billing.md). OCR is billed based on the [type and number of transactions](syntex-pay-as-you-go-services.md).
 
 ### Permissions
 
@@ -56,12 +56,12 @@ Follow these steps to manage which SharePoint sites have OCR enabled for Microso
 
 3. On the **Automate content processes with Syntex** page, select **Go to Syntex settings**.
 
-4. On the Syntex page, under **Document & image services**, select **Optical character recognition**.
+4. On the Syntex page, in the **Document & image services** section, select **Optical character recognition**.
 
 5. On the **Optical character recognition** panel:
 
-    a. Choose which site or sites this service should be enabled for.
+    a. Choose the site or sites on which this service should be enabled.
 
-    b. To restrict user access to this service, select **No sites** or **Selected sites** and follow the instructions to either select the sites or upload a CSV listing a maximum of 100 sites. Be sure to add your content center site if you want it to be included. You can then manage site access permissions for the sites you selected.
+    b. To restrict user access to this service, under **Select the SharePoint libraries where you would like to enable optical character recognition**, select **No sites** or **Selected sites (up to 100)**. Follow the instructions to either select the sites or upload a CSV listing a maximum of 100 sites. Be sure to add your content center site if you want it to be included. You can then manage site access permissions for the sites you selected.
 
     c. Select **Save**.

@@ -47,7 +47,7 @@ Outlook for iOS/iPadOS and Android supports the following configuration scenario
 - **Data protection settings**
 
 > [!IMPORTANT]
-> For configuration scenarios that require device enrollment on Android, the devices must be enrolled in Android Enterprise, and Outlook for Android must be deployed via the managed Google Play store. For more information, see [Set up enrollment of Android work profile devices](/intune/android-work-profile-enroll) and [Add app configuration policies for managed Android devices](/intune/app-configuration-policies-use-android).
+> For configuration scenarios that require device enrollment on Android, the devices must be enrolled in Android Enterprise, and Outlook for Android must be deployed via the managed Google Play store. For more information, see [Set up enrollment of Android work profile devices](/mem/intune/enrollment/android-work-profile-enroll) and [Add app configuration policies for managed Android devices](/mem/intune/apps/app-configuration-policies-use-android).
 
 |Configuration scenario|Description|
 |---|---|

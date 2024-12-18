@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 10/11/2023
+ms.date: 11/14/2024
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -18,7 +18,7 @@ ms.collection:
 ms.custom: 
 - AdminSurgePortfolio
 - VSBFY23
-description: "Purchase Microsoft 365 Business Standard and set up your organization."
+description: "Buy Microsoft 365 Business Standard and set up your organization."
 ---
 
 # Sign up for a Microsoft 365 Business Standard subscription
@@ -46,10 +46,10 @@ To sign up and purchase Microsoft 365 Business Standard, complete the following 
 > [!IMPORTANT]
 > The person who signs up for Microsoft 365 for business (usually the business owner) automatically becomes the technical administrator of the organization. You can add other people as admins if you want help managing your Microsoft 365 services. Check out [Assign admin roles](../add-users/assign-admin-roles.md) for more info.
 
-1. On the [Microsoft 365 for business page](https://go.microsoft.com/fwlink/?linkid=2109654), select **See plans & pricing**.
+1. On the [Microsoft 365 for business page](https://go.microsoft.com/fwlink/?linkid=2109654), select **Compare plans & pricing**.
 2. On the next page, find out the monthly cost, and then scroll down the page to find out more about what's included in Microsoft 365. Under Microsoft 365 Business Standard, select **Buy now**.
-3. On the **Thank you for choosing Microsoft 365 Business Standard** page, enter your information to get started. Select **Next**.
-4. Enter an email address that you already use. This email address can be any address you want Microsoft to use to communicate with you during setup. It's also the address where we send you information about your bill and renewals. Then select, **Set up account**.
+3. On the **Subscription and account details** page, choose the number of people you want and how often you want to be billed. Select **Next**.
+4. Enter an email address that you already use. This email address can be any address you want Microsoft to use to communicate with you during setup. It's also the address where we send you information about your bill and renewals. Select **Next**, then select, **Set up account**.
 5. Enter your name, business phone number, business size, company name, and location. Select **Next**.
 
    > [!NOTE]
